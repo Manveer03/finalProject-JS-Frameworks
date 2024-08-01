@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "category": "Solo Trip",
+      "description": "A city with beautiful temples, gardens, and traditional tea houses, perfect for solo travelers seeking peace and culture."
+      
+    },
+    {
+      "name": "Orlando",
+      "country": "USA",
+      "category": "Family Trip",
+      "description": "A family-friendly destination with theme parks like Disney World and Universal Studios."
+      
+    },
+    {
+      "name": "Queenstown",
+      "country": "New Zealand",
+      "category": "Adventure Trip",
+      "description": "The adventure capital of the world, known for bungee jumping, skiing, and other extreme sports."
+      
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "category": "Solo Trip",
+      "description": "A vibrant city with beautiful canals, museums, and a lively nightlife, great for solo explorers."
+      
+    },
+    {
+      "name": "San Diego",
+      "country": "USA",
+      "category": "Family Trip",
+      "description": "A city with beautiful beaches, parks, and family-friendly attractions like the San Diego Zoo."
+      
+    },
+    {
+      "name": "Interlaken",
+      "country": "Switzerland",
+      "category": "Adventure Trip",
+      "description": "A destination for thrill-seekers offering paragliding, skydiving, and hiking in the Swiss Alps."
+     
+    }
+  ]
+  

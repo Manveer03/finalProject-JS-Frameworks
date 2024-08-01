@@ -1,0 +1,311 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure html and body take up the full viewport height */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #77c4d3;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #66b2b2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+/* Page Styles */
+.content {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Remove any margin */
+    text-align: center; /* Center the content text */
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Center the heading */
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify; /* Properly align the paragraphs */
+    max-width: 800px; /* Set maximum width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: #77c4d3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Categories Section */
+/* Equal height for categories */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f9ff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.category h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.category p {
+    margin: 10px 0;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.category a {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 20px;
+    background-color: #66b2b2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category a:hover {
+    background-color: #55a1a1;
+}
+
+/* API Demo Section */
+form fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form select, form input[type="button"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form .submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .submit input {
+    width: 48%;
+}
+
+#data {
+    margin-top: 20px;
+}
+/* Style the output area */
+#data {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#data ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#data ul li {
+    margin-bottom: 10px;
+}
+
+/* Destination Section */
+.destination {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f0f9ff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Additional styles for contact.html page */
+
+/* Ensure form fits within the page properly */
+.contact-page .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page .contact-form fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.contact-page .contact-form legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.contact-page .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-page .contact-form input[type="text"], 
+.contact-page .contact-form input[type="email"], 
+.contact-page .contact-form input[type="tel"], 
+.contact-page .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-page .contact-form textarea {
+    resize: vertical;
+}
+
+.contact-page .contact-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-page .contact-form .submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-page .contact-form .submit input[type="submit"] {
+    background-color: #66b2b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-page .contact-form .submit input[type="submit"]:hover {
+    background-color: #55a1a1;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Travel Horizon</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/images/Banner3.png" alt="Banner" title="Travel Horizon Banner">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="api-demo.html">API Demo</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content contact-page">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you! Whether you have questions, feedback, or suggestions, feel free to reach out to us using the form below.</p>
+
+            <form id="contact-form" class="contact-form">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="firstname">First Name*</label>
+                    <input id="firstname" name="first-name" type="text" maxlength="25" required>
+                    <br>
+                    <label for="lastname">Last Name*</label>
+                    <input id="lastname" name="last-name" type="text" maxlength="25" required>
+                    <br>
+                    <label for="email">Email*</label>
+                    <input id="email" name="email" type="email" maxlength="50" required>
+                    <br>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="tel" maxlength="15">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <br>
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Sign me up for email updates
+                    </label>
+                </fieldset>
+
+                <div class="submit">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+
+            <div id="thank-you-message" class="thank-you-message" style="display: none;">
+                <h2>Thank You!</h2>
+                <p>Thank you for contacting us. We will get back to you soon.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; 2024 Travel Horizon - All rights reserved</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contact-form');
+            const thankYouMessage = document.getElementById('thank-you-message');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); // Prevent the form from submitting
+                thankYouMessage.style.display = 'block'; // Show the thank you message
+                form.style.display = 'none'; // Hide the form
+            });
+        });
+    </script>
+</body>
+
+</html>
