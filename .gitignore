@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled source
+dist/
+build/
+
+# Miscellaneous
+.DS_Store
+.env
+.vscode/
+.idea/
